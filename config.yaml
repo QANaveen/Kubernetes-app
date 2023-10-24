@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-node-app-config
+  namespace: my-app-namespace
+data:
+  MONGODB_HOST: mongodb-service
+  MONGODB_PORT: "27018"
